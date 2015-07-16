@@ -1,5 +1,6 @@
 "use strict";
 var _ = require('lodash')
+var default_options = require('./default-options.js')
 
 module.exports = function ( options ) {
   var seneca = this

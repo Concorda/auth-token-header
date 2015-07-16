@@ -9,7 +9,7 @@ module.exports = function ( options ) {
     var token     = args.token
     var res       = args.res
 
-    res.setHeader( tokenkey, token )
+    res.set( tokenkey, token )
 
     cb(null, {token: token})
   }
@@ -17,7 +17,7 @@ module.exports = function ( options ) {
   function getToken(args, cb){
     var tokenkey  = args.tokenkey
     var req       = args.req
-    cb(null, {token: req.getHeader( tokenkey )})
+    cb(null, {token: req.get( tokenkey )})
   }
 
   seneca.add({role: 'auth', set: 'token'}, setToken)

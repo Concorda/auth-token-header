@@ -10,7 +10,7 @@ module.exports = function ( options ) {
   function setToken(args, cb){
     var tokenkey  = args.tokenkey || options.tokenkey
     var token     = args.token
-    var res       = args.res
+    var res       = this.fixedargs.res$
 
     res.set( tokenkey, token )
 
@@ -19,7 +19,7 @@ module.exports = function ( options ) {
 
   function getToken(args, cb){
     var tokenkey  = args.tokenkey || options.tokenkey
-    var req       = args.req
+    var req       = this.fixedargs.req$
     cb(null, {token: req.get( tokenkey )})
   }
 

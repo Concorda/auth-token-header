@@ -6,10 +6,26 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "seneca",
+    "auth",
+    "plugin",
+    "cookie"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/mirceaalexandru/seneca-auth-token-header"
   },
+  "files": [
+    "LICENSE.txt",
+    "README.md",
+    "app.js",
+    "default-options.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/mirceaalexandru/seneca-auth-token-header/issues"
+  },
+  "homepage": "https://github.com/mirceaalexandru/seneca-auth-token-header",
   "author": {
     "name": "Mircea Alexandru",
     "email": "mircea.alexandru@gmail.com",

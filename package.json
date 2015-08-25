@@ -1,7 +1,7 @@
 {
-  "name": "seneca-auth-token-header",
-  "version": "0.0.2",
-  "description": "Seneca plugin for storing auth token in header",
+  "name": "auth-token-header",
+  "version": "0.0.1",
+  "description": "Seneca module for storing auth token in header",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mirceaalexandru/seneca-auth-token-header"
+    "url": "https://github.com/mirceaalexandru/auth-token-header"
   },
   "files": [
     "LICENSE.txt",
@@ -23,9 +23,9 @@
     "default-options.js"
   ],
   "bugs": {
-    "url": "https://github.com/mirceaalexandru/seneca-auth-token-header/issues"
+    "url": "https://github.com/mirceaalexandru/auth-token-header/issues"
   },
-  "homepage": "https://github.com/mirceaalexandru/seneca-auth-token-header",
+  "homepage": "https://github.com/mirceaalexandru/auth-token-header",
   "author": {
     "name": "Mircea Alexandru",
     "email": "mircea.alexandru@gmail.com",

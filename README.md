@@ -7,6 +7,8 @@ auth-token-header
 [![Dependency Status][david-badge]][david-url]
 [![Gitter chat][gitter-badge]][gitter-url]
 
+Lead Maintainer: [Mircea Alexandru](https://github.com/mirceaalexandru)
+
 [Seneca](http://senecajs.org) plugin for storing auth token in the header.
 
 This plugin is used by [seneca-auth](https://www.npmjs.com/package/seneca-auth)

@@ -2,9 +2,9 @@
   "name": "auth-token-header",
   "version": "0.0.1",
   "description": "Seneca module for storing auth token in header",
-  "main": "app.js",
+  "main": "auth-token-header.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lab -L"
   },
   "keywords": [
     "seneca",
@@ -19,7 +19,7 @@
   "files": [
     "LICENSE.txt",
     "README.md",
-    "app.js",
+    "auth-token-header.js",
     "default-options.js"
   ],
   "bugs": {
@@ -35,5 +35,10 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "lodash": "^3.10.0"
+  },
+  "devDependencies": {
+    "lab": "8.0.1",
+    "eslint-config-seneca": "1.1.2",
+    "eslint-plugin-standard": "1.3.1"
   }
 }

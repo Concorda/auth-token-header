@@ -74,7 +74,7 @@ suite('token-header suite get token tests', function () {
     }
     si.act('role: auth, get: token', {token: 'token_value'}, function (err, token) {
       expect(err).to.be.null()
-      expect(token).to.be.deep.equal({ token: 'token_value' })
+      expect(token).to.be.deep.equal({token: 'token_value'})
       done()
     })
   })
@@ -90,7 +90,7 @@ suite('token-header suite get token tests', function () {
     }
     si.act('role: auth, get: token', {tokenkey: 'tokenkey', token: 'token_value'}, function (err, token) {
       expect(err).to.be.null()
-      expect(token).to.be.deep.equal({ token: 'token_value' })
+      expect(token).to.be.deep.equal({token: 'token_value'})
       done()
     })
   })
@@ -106,7 +106,7 @@ suite('token-header suite get token tests', function () {
     }
     si.act('role: auth, get: token', {token: 'token_value'}, function (err, token) {
       expect(err).to.be.null()
-      expect(token).to.be.deep.equal({ token: 'token_value' })
+      expect(token).to.be.deep.equal({token: 'token_value'})
       done()
     })
   })

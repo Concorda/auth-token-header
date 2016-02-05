@@ -1,3 +1,3 @@
 module.exports = {
-  'tokenkey': 'X-Auth-Token'
+  tokenkey: 'X-Auth-Token'
 }

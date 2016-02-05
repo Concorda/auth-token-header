@@ -4,7 +4,10 @@
   "description": "Seneca module for storing auth token in header",
   "main": "auth-token-header.js",
   "scripts": {
-    "test": "lab test/*.test.js -r console -v -L -t 80"
+    "test": "lab test/*.test.js -r console -v -L -t 95",
+    "lint": "lab -dL",
+    "coverage": "lab -s test/*.test.js  -r lcov | coveralls",
+    "annotate": "docco auth-token-header.js -o doc"
   },
   "keywords": [
     "seneca",
@@ -14,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mirceaalexandru/auth-token-header"
+    "url": "https://github.com/senecajs/auth-token-header"
   },
   "files": [
     "LICENSE.txt",
@@ -23,24 +26,33 @@
     "default-options.js"
   ],
   "bugs": {
-    "url": "https://github.com/mirceaalexandru/auth-token-header/issues"
+    "url": "https://github.com/senecajs/auth-token-header/issues"
   },
-  "homepage": "https://github.com/mirceaalexandru/auth-token-header",
+  "homepage": "https://github.com/senecajs/auth-token-header",
   "author": {
     "name": "Mircea Alexandru",
     "email": "mircea.alexandru@gmail.com",
     "url": "https://github.com/mirceaalexandru"
   },
+  "contributors": [
+    {
+      "name": "Cristian Kiss",
+      "email": "kissdevel@gmail.com",
+      "url": "https://github.com/ckiss"
+    }
+  ],
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "lodash": "^3.10.0"
+    "lodash": "4.x.x"
   },
   "devDependencies": {
-    "lab": "8.0.1",
-    "code": "2.1.0",
-    "seneca": "0.9.3",
-    "eslint-config-seneca": "1.1.2",
-    "eslint-plugin-standard": "1.3.1"
+    "code": "2.x.x",
+    "docco": "0.x.x",
+    "eslint-config-seneca": "1.x.x",
+    "eslint-plugin-hapi": "4.x.x",
+    "eslint-plugin-standard": "1.x.x",
+    "lab": "8.x.x",
+    "seneca": "plugin"
   }
 }

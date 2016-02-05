@@ -61,11 +61,11 @@ Copyright (c) Mircea Alexandru and other contributors 2015, Licensed under [MIT]
 
 [npm-badge]: https://badge.fury.io/js/auth-token-header.svg
 [npm-url]: https://badge.fury.io/js/auth-token-header
-[david-badge]: https://david-dm.org/mirceaalexandru/auth-token-header.svg
-[david-url]: https://david-dm.org/mirceaalexandru/auth-token-header
+[david-badge]: https://david-dm.org/senecajs/auth-token-header.svg
+[david-url]: https://david-dm.org/senecajs/auth-token-header
 [gitter-badge]: https://badges.gitter.im/senecajs/seneca.png
 [gitter-url]: https://gitter.im/senecajs/seneca
-[travis-badge]: https://travis-ci.org/mirceaalexandru/auth-token-header.svg
-[travis-url]: https://travis-ci.org/mirceaalexandru/auth-token-header
+[travis-badge]: https://travis-ci.org/senecajs/auth-token-header.svg
+[travis-url]: https://travis-ci.org/senecajs/auth-token-header
 
 [MIT]: ./LICENSE
